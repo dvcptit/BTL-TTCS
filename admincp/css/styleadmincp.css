@@ -1,0 +1,23 @@
+.wrapper{
+    border: 1px solid #000;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+.title-admin{
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+}
+.admincp_list{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+    display:flex;
+}
+.admincp_list li{
+    margin-left: 15px;
+}
+.admincp_list li a{
+    text-decoration: none;
+}

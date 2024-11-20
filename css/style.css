@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.button{
+    background:#1aff8c;
+    padding: 10px 15px;
+    border:none;
+    color:blue;
+    border-radius:5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background:green;
+    padding: 10px 15px;
+    border:none;
+    color:#fff;
+
+}
+.wrapper{
+    border: 1px solid #000;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+.wrapper-detail{
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    display:flex;
+}
+.wrapper-detail .hinhanh_sanpham{
+    width:40%;
+}
+.wrapper-detail .hinhanh_sanpham img{
+    width: 100%;
+}
+.wrapper-detail .chitiet_sanpham{
+    margin-left: 50px;
+}
+.wrapper-detail .chitiet_sanpham h3{
+    margin-top:0;
+    padding-top:0;
+}
+
+.header{
+    border: 1px solid #ff8dff;
+    height: 350px;
+    width: 100%;
+    background-image: url("../images/thiet-ke-web-ban-o-to-hai-phong4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu{
+    border: 1px solid #1aff8c;
+    height: 50px;
+    width: 100%;
+    background:#00e6ac;
+}
+.menu .list-menu{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.menu .list-menu li{
+    margin-left: 15px;
+}
+.menu .list-menu a{
+    color:#000;
+    font-weight: 500;
+}
+.menu .list-menu li a:hover{
+    color:red;
+}
+
+#main{
+    border: 1px solid #00ff80;
+    height: auto;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start
+}
+.sidebar{
+    border: 1px solid #000066;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: auto;
+    width: 20%;
+    padding: 0;
+}
+.sidebar .list-sidebar{
+    list-style-type: none;
+    width: 100%;
+    padding:0;
+    margin: 0;
+    line-height: 27px;
+}
+.sidebar .list-sidebar li{
+    margin-top: 10px;
+}
+.sidebar .list-sidebar a{
+    display: block;
+    color:#000;
+    font-weight: 500;
+    text-align: left;
+}
+.sidebar .list-sidebar li a:hover{
+    color:red;
+    background: blue;
+}
+.maincontent{
+    border: 1px solid #ff0000;
+    height: 100%;
+    width: 78%;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.footer{
+    border: 1px solid #000;
+    height: 100px;
+    width: 100%;
+    background:#00cc99;
+}
+.footer .footer-copyright{
+    text-align: center;
+    color:#000;
+}
+
+.product-list{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+.product-list li{
+    width:20%;
+    border: 1px dashed #ddd;
+    margin:25px;
+    background:aquamarine;
+    text-align: center;
+}
+.product-list li img{
+    width:100%;
+    height:130px;
+}
+.product-list li p.title-product{
+    color:#000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.product-list li p.price-product{
+    color:red;
+    font-weight: bold;
+}
+ul.baiviet{
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+ul.baiviet li{
+    border:1px solid #ddd;
+    padding:10px;
+}
+
+.tabs {
+    width: 100%;
+    background-color: #00e6ac;
+    border-radius: 5px 5px 5px 5px;
+  }
+  ul#tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    overflow: auto;
+  }
+  ul#tabs-nav li {
+    float: left;
+    font-weight: bold;
+    margin-right: 2px;
+    padding: 8px 10px;
+    border-radius: 5px 5px 5px 5px;
+    /*border: 1px solid #d5d5de;
+    border-bottom: none;*/
+    cursor: pointer;
+  }
+  ul#tabs-nav li:hover,
+  ul#tabs-nav li.active {
+    background-color: #08E;
+  }
+  #tabs-nav li a {
+    text-decoration: none;
+    color: #FFF;
+  }
+  .tab-content {
+    padding: 10px;
+    border: 5px solid #00e6ac;
+    background-color: #FFF;
+  }
+  
+  /* Just for CodePen styling - don't include if you copy paste */
